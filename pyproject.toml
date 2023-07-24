@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "my-finance"
+version = "0.1.0"
+description = "Personal Finance Web App"
+authors = ["rafael-lacerda <67244039+rafael-lacerda@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Jinja2 = "^3.1.2"
+alembic = "^1.11.1"
+fastapi = "^0.100.0"
+sqlalchemy = "^2.0.19"
+pydantic = "^2.0.3"
+uvicorn = "^0.23.1"
+pyjwt = "^2.8.0"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
