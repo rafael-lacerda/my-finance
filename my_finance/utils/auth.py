@@ -1,98 +1,70 @@
-"""
-This module provides security and authentication.
-"""
-
-# --------------------------------------------------------------------------------
-# Imports
-# --------------------------------------------------------------------------------
+import secrets
+from typing import Optional
 
 import jwt
-import secrets
-
-from my_finance import users, secret_key
-from my_finance.utils.exceptions import UnauthorizedException, UnauthorizedPageException
-
 from fastapi import Cookie, Depends, Form
 from fastapi.security import HTTPBasic
 from pydantic import BaseModel
-from typing import Optional
 
-
-# --------------------------------------------------------------------------------
-# Globals
-# --------------------------------------------------------------------------------
+from my_finance.utils.exceptions import UnauthorizedException, UnauthorizedPageException
+from my_finance.utils.settings import Settings
 
 basic_auth = HTTPBasic(auto_error=False)
-auth_cookie_name = "reminders_session"
+auth_cookie_name = "my_finance_session"
+settings = Settings()
 
-
-# --------------------------------------------------------------------------------
-# Models
-# --------------------------------------------------------------------------------
 
 class AuthCookie(BaseModel):
-  name: str
-  token: str
-  username: str
+    name: str
+    token: str
+    username: str
 
-
-# --------------------------------------------------------------------------------
-# Serializers
-# --------------------------------------------------------------------------------
 
 def serialize_token(username: str) -> str:
-  return jwt.encode({"username": username}, secret_key, algorithm="HS256")
+    return jwt.encode({"username": username}, settings.SECRET_KEY, algorithm="HS256")
 
 
 def deserialize_token(token: str) -> str:
-  try:
-    data = jwt.decode(token, secret_key, algorithms=["HS256"])
-    return data['username']
-  except:
-    return None
+    try:
+        data = jwt.decode(token, settings.SECRET_KEY, algorithms=["HS256"])
+        return data["username"]
+    except Exception:
+        return None
 
-
-# --------------------------------------------------------------------------------
-# Authentication Checkers
-# --------------------------------------------------------------------------------
 
 def get_login_form_creds(username: str = Form(), password: str = Form()) -> Optional[AuthCookie]:
-  cookie = None
+    cookie = None
 
-  if username in users:
-    if secrets.compare_digest(password, users[username]):
-      token = serialize_token(username)
-      cookie = AuthCookie(
-        name=auth_cookie_name,
-        username=username,
-        token=token)
+    if username in settings.USERS:
+        if secrets.compare_digest(password, settings.USERS[username]):
+            token = serialize_token(username)
+            cookie = AuthCookie(name=auth_cookie_name, username=username, token=token)
 
-  return cookie
+    return cookie
 
 
-def get_auth_cookie(reminders_session: Optional[str] = Cookie(default=None)) -> Optional[AuthCookie]:
-  cookie = None
+def get_auth_cookie(
+    my_finance_session: Optional[str] = Cookie(default=None),
+) -> Optional[AuthCookie]:
+    cookie = None
 
-  if reminders_session:
-    username = deserialize_token(reminders_session)
-    if username and username in users:
-      cookie = AuthCookie(
-        name=auth_cookie_name,
-        username=username,
-        token=reminders_session)
+    if my_finance_session:
+        username = deserialize_token(my_finance_session)
+        if username in settings.USERS:
+            cookie = AuthCookie(name=auth_cookie_name, username=username, token=my_finance_session)
 
-  return cookie
+    return cookie
 
 
 def get_username_for_api(cookie: Optional[AuthCookie] = Depends(get_auth_cookie)) -> str:
-  if not cookie:
-    raise UnauthorizedException()
+    if not cookie:
+        raise UnauthorizedException()
 
-  return cookie.username
+    return cookie.username
 
 
 def get_username_for_page(cookie: Optional[AuthCookie] = Depends(get_auth_cookie)) -> str:
-  if not cookie:
-    raise UnauthorizedPageException()
+    if not cookie:
+        raise UnauthorizedPageException()
 
-  return cookie.username
+    return cookie.username

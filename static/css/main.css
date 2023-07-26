@@ -1,0 +1,278 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .main-background {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: auto;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-backgroundimage {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+  .main-top-nav {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+  }
+  .main-text {
+    top: 23px;
+    left: 29px;
+    color: rgba(255, 255, 255, 1);
+    width: 277px;
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Nico Moji;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-logout-button {
+    top: 0px;
+    right: 0px;
+    width: 163px;
+    height: 93px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-logout-button1 {
+    top: 0px;
+    left: 0px;
+    width: 163px;
+    height: 93px;
+    position: absolute;
+  }
+  .main-text02 {
+    top: 30px;
+    left: 43px;
+    color: rgba(205, 205, 205, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-menu {
+    top: 264px;
+    left: 820px;
+    width: 526px;
+    height: 392px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-menu-background {
+    top: 0px;
+    left: 21px;
+    width: 505px;
+    height: 392px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  .main-income-button {
+    top: 30px;
+    left: 0px;
+    width: 518px;
+    height: 96px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-income-button1 {
+    top: 0px;
+    left: 0px;
+    width: 518px;
+    height: 96px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .main-text04 {
+    top: 25px;
+    left: 107px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-expense-button {
+    top: 148px;
+    left: 0px;
+    width: 518px;
+    height: 96px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-expense-button1 {
+    top: 0px;
+    left: 0px;
+    width: 518px;
+    height: 96px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .main-text06 {
+    top: 25px;
+    left: 107px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-transactions-button {
+    top: 266px;
+    left: 0px;
+    width: 518px;
+    height: 96px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-view-transactions-button {
+    top: 0px;
+    left: 0px;
+    width: 518px;
+    height: 96px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .main-text08 {
+    top: 24px;
+    left: 82px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-balance {
+    top: 118px;
+    left: 29px;
+    width: 340px;
+    height: 47.4609375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-value-tile {
+    top: 47.869140625px;
+    left: 0px;
+    width: 340px;
+    height: 47px;
+    position: absolute;
+  }
+  .main-balance-tile {
+    top: 0px;
+    left: 0px;
+    width: 340px;
+    height: 47px;
+    position: absolute;
+  }
+  .main-text10 {
+    top: 53px;
+    left: 105px;
+    color: rgba(37, 203, 64, 1);
+    width: 130px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-text12 {
+    top: 8px;
+    left: 88px;
+    color: rgba(255, 255, 255, 1);
+    width: 163px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-dollar-icon {
+    top: 8px;
+    left: 14px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+  }
+  @media(max-width: 1920px) {
+    .main-backgroundimage {
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+    }
+  }
