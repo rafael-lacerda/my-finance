@@ -1,0 +1,1333 @@
+.trans-list-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trans-list-trans-list {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.trans-list-background {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: auto;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.trans-list-headermenu {
+    top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 93px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.trans-list-top-nav {
+    top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 93px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.trans-list-top-nav-bar {
+    top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 93px;
+	position: absolute;
+}
+
+.trans-list-text {
+    top: 23px;
+	left: 50px;
+	color: rgba(255, 255, 255, 1);
+	width: 277px;
+	height: auto;
+	position: absolute;
+	font-size: 40px;
+	font-style: Regular;
+	text-align: left;
+	font-family: Nico Moji;
+	font-weight: 400;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.trans-list-header-text {
+	top: 23px;
+	left: 29px;
+	color: rgba(255, 255, 255, 1);
+	width: 277px;
+	height: auto;
+	position: absolute;
+	font-size: 40px;
+	font-style: Regular;
+	text-align: left;
+	font-family: Nico Moji;
+	font-weight: 400;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.trans-list-return {
+    top: 0px;
+	right: 166px;
+	width: 163px;
+	height: 93px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.trans-list-button {
+    top: 0px;
+	left: 0px;
+	width: 163px;
+	height: 93px;
+	position: absolute;
+}
+
+.trans-remove-button {
+    top: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+}
+
+.trans-list-text02 {
+    top: 6.5px;
+    left: 110px;
+    /* color: rgba(211, 34, 87, 1); */
+	height: auto;
+	position: absolute;
+	font-size: 24px;
+	font-style: Bold;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 700;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.trans-list-logout-button {
+    top: 0px;
+	right: 0px;
+	width: 163px;
+	height: 93px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.trans-list-button1 {
+    top: 0px;
+	left: 0px;
+	width: 163px;
+	height: 93px;
+	position: absolute;
+}
+
+.trans-list-text04 {
+    top: 30px;
+	left: 43px;
+	color: rgba(205, 205, 205, 1);
+	height: auto;
+	position: absolute;
+	font-size: 24px;
+	font-style: Bold;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 700;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.trans-list-table {
+    top: 164px;
+    left: 15%;
+    width: 80%;
+    height: 554px;
+    display: block;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-background1 {
+    top: 0px;
+    left: 0px;
+    width: 1051px;
+    height: 554px;
+    position: absolute;
+}
+
+.trans-list-header {
+    top: 0px;
+    left: 0px;
+    width: 1051px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-data {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle12 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text06 {
+    top: 6.5px;
+    left: 99.94804382324219px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line1 {
+    top: 0px;
+    left: 257.5980529785156px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-feather-iconsficalendar {
+    top: 9.401211738586426px;
+    left: 25.75980567932129px;
+    width: 33px;
+    height: 21px;
+    position: absolute;
+}
+
+.trans-list-descrio {
+    top: 0px;
+    left: 259.6588134765625px;
+    width: 532px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1201 {
+    top: 0px;
+    left: 0px;
+    width: 532px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text08 {
+    top: 6.5px;
+    left: 206.29275512695312px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line101 {
+    top: 0px;
+    left: 531.682373046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-feather-iconsfialignjustify {
+    top: 9.401211738586426px;
+    left: 25.75980567932129px;
+    width: 33px;
+    height: 21px;
+    position: absolute;
+}
+
+.trans-list-valor {
+    top: 0px;
+    left: 793.4019775390625px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1202 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text10 {
+    top: 6.5px;
+    left: 99.94803619384766px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-feather-iconsfidollarsign {
+    top: 9.401211738586426px;
+    left: 25.75980567932129px;
+    width: 33px;
+    height: 21px;
+    position: absolute;
+}
+
+.trans-list-footer {
+    top: 473.4181823730469px;
+    left: 0px;
+    width: 100%;
+    height: 80.5818099975586px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+
+.trans-list-footer-colunas {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+
+.trans-list-balano {
+    top: 0px;
+    left: 700.6666259765625px;
+    width: 350.33331298828125px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1203 {
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text12 {
+    top: 6.5px;
+    left: 94.79606628417969px;
+    color: rgba(255, 255, 255, 1);
+    width: 168px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-feather-iconsfidollarsign1 {
+    top: 9.401211738586426px;
+    left: 25.75980567932129px;
+    width: 33px;
+    height: 21px;
+    position: absolute;
+}
+
+.trans-list-despesa {
+    top: 0px;
+    left: 350.33331298828125px;
+    width: 350.33331298828125px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1204 {
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text14 {
+    top: 6.5px;
+    left: 94.79606628417969px;
+    color: rgba(255, 255, 255, 1);
+    width: 169px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-feather-iconsfidollarsign2 {
+    top: 9.401211738586426px;
+    left: 25.75980567932129px;
+    width: 33px;
+    height: 21px;
+    position: absolute;
+}
+
+.trans-list-line102 {
+    top: 0px;
+    left: 349.30291748046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-receita {
+    top: 0px;
+    left: 0px;
+    width: 350.33331298828125px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1205 {
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text16 {
+    top: 6.5px;
+    left: 94.79606628417969px;
+    color: rgba(255, 255, 255, 1);
+    width: 161px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-feather-iconsfidollarsign3 {
+    top: 9.401211738586426px;
+    left: 25.75980567932129px;
+    width: 33px;
+    height: 21px;
+    position: absolute;
+}
+
+.trans-list-line103 {
+    top: 0px;
+    left: 349.30291748046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-line104 {
+    top: 0px;
+    left: 1051px;
+    width: 1051px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-footer-valores {
+    top: 40.29090118408203px;
+    left: 0px;
+    width: 1051px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+
+.trans-list-balano1 {
+    top: 0px;
+    left: 700.6666259765625px;
+    width: 350.33331298828125px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1206 {
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text18 {
+    top: 6.5px;
+    left: 94.79606628417969px;
+    color: rgba(37, 203, 64, 1);
+    width: 134px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-despesa1 {
+    top: 0px;
+    left: 350.33331298828125px;
+    width: 350.33331298828125px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1207 {
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text20 {
+    top: 6.5px;
+    left: 94.79606628417969px;
+    color: rgba(211, 34, 87, 1);
+    width: 137px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line105 {
+    top: 0px;
+    left: 349.30291748046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-receita1 {
+    top: 0px;
+    left: 0px;
+    width: 350.33331298828125px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1208 {
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text22 {
+    top: 6.5px;
+    left: 94.79606628417969px;
+    color: rgba(34, 211, 62, 1);
+    width: 133px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line106 {
+    top: 0px;
+    left: 349.30291748046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-line107 {
+    top: 513.7091064453125px;
+    left: 1051px;
+    width: 1051px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-row {
+    top: 40.5px;
+    width: 1051px;
+    height: 39px;
+    display: block;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.trans-list-data1 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1209 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text24 {
+    top: 6.5px;
+    left: 61.82353210449219px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line108 {
+    top: 0px;
+    left: 257.5980529785156px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-descrio1 {
+    top: 0px;
+    left: 259.6588134765625px;
+    width: 532px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1210 {
+    top: 0px;
+    left: 0px;
+    width: 532px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text26 {
+    top: 6.5px;
+    left: 59.76274871826172px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line109 {
+    top: 0px;
+    left: 531.682373046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-valor1 {
+    top: 0px;
+    left: 793.4019775390625px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-remove {
+    top: 0px;
+    left: 1052.4019775390625px;
+    width: 10px;
+    height: 10;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1211 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text {
+    top: 6.5px;
+    left: 61.823524475097656px;
+    /* color: rgba(211, 34, 87, 1); */
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line110 {
+    top: 0px;
+    left: 1051px;
+    width: 1051px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-data2 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1212 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text30 {
+    top: 6.5px;
+    left: 61.82353210449219px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line111 {
+    top: 0px;
+    left: 257.5980529785156px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-descrio2 {
+    top: 0px;
+    left: 259.6588134765625px;
+    width: 532px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1213 {
+    top: 0px;
+    left: 0px;
+    width: 532px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text32 {
+    top: 6.5px;
+    left: 59.76274871826172px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line112 {
+    top: 0px;
+    left: 531.682373046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-valor2 {
+    top: 0px;
+    left: 793.4019775390625px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1214 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text34 {
+    top: 6.5px;
+    left: 61.823524475097656px;
+    color: rgba(211, 34, 87, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line113 {
+    top: 0px;
+    left: 1051px;
+    width: 1051px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-data3 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1215 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text36 {
+    top: 6.5px;
+    left: 61.82353210449219px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line114 {
+    top: 0px;
+    left: 257.5980529785156px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-descrio3 {
+    top: 0px;
+    left: 259.6588134765625px;
+    width: 532px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1216 {
+    top: 0px;
+    left: 0px;
+    width: 532px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text38 {
+    top: 6.5px;
+    left: 59.76274871826172px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line115 {
+    top: 0px;
+    left: 531.682373046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-valor3 {
+    top: 0px;
+    left: 793.4019775390625px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1217 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text40 {
+    top: 6.5px;
+    left: 61.823524475097656px;
+    color: rgba(34, 211, 62, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line116 {
+    top: 0px;
+    left: 1051px;
+    width: 1051px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-data4 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1218 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text42 {
+    top: 6.5px;
+    left: 61.82353210449219px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line117 {
+    top: 0px;
+    left: 257.5980529785156px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-descrio4 {
+    top: 0px;
+    left: 259.6588134765625px;
+    width: 532px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1219 {
+    top: 0px;
+    left: 0px;
+    width: 532px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text44 {
+    top: 6.5px;
+    left: 59.76274871826172px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line118 {
+    top: 0px;
+    left: 531.682373046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-valor4 {
+    top: 0px;
+    left: 793.4019775390625px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1220 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text46 {
+    top: 6.5px;
+    left: 61.823524475097656px;
+    color: rgba(211, 34, 87, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line119 {
+    top: 0px;
+    left: 1051px;
+    width: 1051px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-data5 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1221 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text48 {
+    top: 6.5px;
+    left: 61.82353210449219px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line120 {
+    top: 0px;
+    left: 257.5980529785156px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-descrio5 {
+    top: 0px;
+    left: 259.6588134765625px;
+    width: 532px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1222 {
+    top: 0px;
+    left: 0px;
+    width: 532px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text50 {
+    top: 6.5px;
+    left: 59.76274871826172px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line121 {
+    top: 0px;
+    left: 531.682373046875px;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+}
+
+.trans-list-valor5 {
+    top: 0px;
+    left: 793.4019775390625px;
+    width: 258px;
+    height: 40.29090881347656px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.trans-list-rectangle1223 {
+    top: 0px;
+    left: 0px;
+    width: 258px;
+    height: 40px;
+    position: absolute;
+}
+
+.trans-list-text52 {
+    top: 6.5px;
+    left: 61.823524475097656px;
+    color: rgba(34, 211, 62, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.trans-list-line122 {
+    top: 0px;
+    left: 1051px;
+    width: 1051px;
+    height: 1px;
+    position: relative;
+}

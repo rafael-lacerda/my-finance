@@ -1,0 +1,310 @@
+.transaction-container {
+	width: 100%;
+	display: flex;
+	overflow: auto;
+	min-height: 100vh;
+	align-items: center;
+	flex-direction: column;
+}
+
+.transaction-transaction {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.transaction-background {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: auto;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-top-nav {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 93px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-top-nav-bar {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 93px;
+	position: absolute;
+}
+
+.transaction-text {
+	top: 23px;
+	left: 29px;
+	color: rgba(255, 255, 255, 1);
+	width: 277px;
+	height: auto;
+	position: absolute;
+	font-size: 40px;
+	font-style: Regular;
+	text-align: left;
+	font-family: Nico Moji;
+	font-weight: 400;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.transaction-return {
+	top: 0px;
+	right: 166px;
+	width: 163px;
+	height: 93px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-button {
+	top: 0px;
+	left: 0px;
+	width: 163px;
+	height: 93px;
+	position: absolute;
+}
+
+.transaction-text02 {
+	top: 30px;
+	left: 43.791412353515625px;
+	color: rgba(205, 205, 205, 1);
+	height: auto;
+	position: absolute;
+	font-size: 24px;
+	font-style: Bold;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 700;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.transaction-logout-button {
+	top: 0px;
+	right: 0px;
+	width: 163px;
+	height: 93px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-button1 {
+	top: 0px;
+	left: 0px;
+	width: 163px;
+	height: 93px;
+	position: absolute;
+}
+
+.transaction-text04 {
+	top: 30px;
+	left: 43px;
+	color: rgba(205, 205, 205, 1);
+	height: auto;
+	position: absolute;
+	font-size: 24px;
+	font-style: Bold;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 700;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.transaction-menu {
+	top: 120px;
+	left: 380px;
+	width: 816px;
+	height: 793px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-menu-background {
+	top: 0px;
+	left: 81px;
+	width: 642px;
+	height: 576px;
+	position: absolute;
+	border-radius: 20px;
+}
+
+.transaction-transaction-button {
+	top: 448px;
+	left: 167px;
+	width: 481px;
+	height: 70px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-button2 {
+	top: 0px;
+	left: 0px;
+	width: 481px;
+	height: 70px;
+	position: absolute;
+	border-radius: 10px;
+}
+
+.transaction-text06 {
+	top: 12px;
+	left: 88px;
+	color: rgba(255, 255, 255, 1);
+	width: 355px;
+	height: auto;
+	position: absolute;
+	font-size: 36px;
+	font-style: Regular;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 400;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.transaction-date {
+	top: 285px;
+	left: 167px;
+	width: 481px;
+	height: 119px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-date-input {
+	top: 49.128440856933594px;
+	left: 0px;
+	width: 481px;
+	height: 70px;
+	position: absolute;
+	border-radius: 10px;
+	text-align: center;
+	background-color: lightgrey;
+	font-size: 26px;
+}
+
+.transaction-text08 {
+	left: 193px;
+	color: rgba(255, 255, 255, 1);
+	width: 93px;
+	height: auto;
+	position: absolute;
+	font-size: 36px;
+	font-style: Regular;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 400;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.transaction-value {
+	top: 158px;
+	left: 167px;
+	width: 481px;
+	height: 118px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-value-input {
+	top: 48.71559524536133px;
+	left: 0px;
+	width: 481px;
+	height: 70px;
+	position: absolute;
+	border-radius: 10px;
+	text-align: center;
+	background-color: lightgrey;
+	font-size: 26px;
+}
+
+.transaction-text10 {
+	left: 193px;
+	color: rgba(255, 255, 255, 1);
+	width: 111px;
+	height: auto;
+	position: absolute;
+	font-size: 36px;
+	font-style: Regular;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 400;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}
+
+.transaction-description {
+	top: 29px;
+	left: 167px;
+	width: 481px;
+	height: 119px;
+	display: flex;
+	position: absolute;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.transaction-description-input {
+	top: 49.34146499633789px;
+	left: 0px;
+	width: 481px;
+	height: 70px;
+	position: absolute;
+	border-radius: 10px;
+	text-align: center;
+	background-color: lightgrey;
+	font-size: 26px;
+}
+
+.transaction-text12 {
+	left: 157px;
+	color: rgba(255, 255, 255, 1);
+	width: 185px;
+	height: auto;
+	position: absolute;
+	font-size: 36px;
+	font-style: Regular;
+	text-align: left;
+	font-family: Miriam Libre;
+	font-weight: 400;
+	line-height: normal;
+	font-stretch: normal;
+	text-decoration: none;
+}

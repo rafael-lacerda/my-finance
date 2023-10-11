@@ -27,3 +27,9 @@ dev-add:
 remove: #Poetry remove package
 remove:
 	@${DC} run --no-deps myfinance poetry remove $(package)
+
+
+.PHONY: migration
+migration: #alembic make revision
+migration:
+	@${DC} run --no-deps myfinance poetry run alembic revision --autogenerate -m "$(message)"

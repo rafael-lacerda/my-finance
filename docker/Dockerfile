@@ -10,4 +10,4 @@ RUN poetry install
 
 COPY . .
 
-CMD ["poetry", "run", "uvicorn", "my_finance.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["bash", "scripts/entrypoint.sh"]

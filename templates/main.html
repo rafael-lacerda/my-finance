@@ -141,7 +141,7 @@
                 </div>
                 <form id="logout-form" action="/logout" method="post">
                     <button class="main-logout-button">
-                        <img src="../static/img/logoutbutton522-g73c.svg" alt="LogoutButton522"
+                        <img src="../static/img/topNavButton.svg" alt="LogoutButton522"
                             class="main-logout-button1" />
                         <span class="main-text02"><span>Logout</span></span>
                     </button>
@@ -149,30 +149,44 @@
                 <div class="main-menu">
                     <img src="../static/img/menubackground525-p1m-600w.png" alt="MenuBackground525"
                         class="main-menu-background" />
-                    <button class="main-income-button">
-                        <img src="../static/img/incomebutton526-6df7-200h.png" alt="IncomeButton526"
-                            class="main-income-button1" />
-                        <span class="main-text04"><span>Cadastrar Receita</span></span>
-                    </button>
-                    <button class="main-expense-button">
-                        <img src="../static/img/expensebutton527-u4lk-200h.png" alt="ExpenseButton527"
-                            class="main-expense-button1" />
-                        <span class="main-text06"><span>Cadastrar Despesa</span></span>
-                    </button>
-                    <button class="main-transactions-button">
-                        <img src="../static/img/viewtransactionsbutton528-ueyp-200h.png"
-                            alt="ViewTransactionsButton528" class="main-view-transactions-button" />
-                        <span class="main-text08">
-                            <span>Visualizar Transações</span>
-                        </span>
-                    </button>
+                    <a href="/income">
+                        <button class="main-income-button">
+                            <img src="../static/img/incomebutton526-6df7-200h.png" alt="IncomeButton526"
+                                class="main-income-button1" />
+                            <span class="main-text04"><span>Cadastrar Receita</span></span>
+                        </button>
+                    </a>
+                    <a href="/expense">
+                        <button class="main-expense-button">
+                            <img src="../static/img/expensebutton527-u4lk-200h.png" alt="ExpenseButton527"
+                                class="main-expense-button1" />
+                            <span class="main-text06"><span>Cadastrar Despesa</span></span>
+                        </button>
+                    </a>
+                    <a href="/transactions">
+                        <button class="main-transactions-button">
+                            <img src="../static/img/viewtransactionsbutton528-ueyp-200h.png"
+                                alt="ViewTransactionsButton528" class="main-view-transactions-button" />
+                            <span class="main-text08">
+                                <span>Visualizar Transações</span>
+                            </span>
+                        </button>
+                    </a>
                 </div>
                 <div class="main-balance">
                     <img src="../static/img/valuetile2020-rjvk-200h.png" alt="ValueTile2020"
                         class="main-value-tile" />
                     <img src="../static/img/balancetile2020-nhxp-200h.png" alt="BalanceTile2020"
                         class="main-balance-tile" />
-                    <span class="main-text10"><span>R$ 6.720,00</span></span>
+                    <span class="main-text10">
+                        {% if balance_sign == "positive" %}
+                        <span style="color: rgba(37, 203, 64, 1)">R$ {{
+                                balance }}</span>
+                        {% else %}
+                        <span style="color: rgba(211, 34, 87, 1)">R$ {{
+                                balance}}</span>
+                        {% endif %}
+                    </span>
                     <span class="main-text12"><span>Balanço Atual</span></span>
                     <img src="../static/img/dollaricon2020-w45a.svg" alt="DollarIcon2020" class="main-dollar-icon" />
                 </div>

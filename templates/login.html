@@ -141,8 +141,8 @@
         </div>
         <form action="/login" method="post" class="login-form">
           <div class="login-user-input">
-            <input type="text" name="username" class="login-user-input1" required />
-            <span class="login-text08"><span>Usuário:</span></span>
+            <input type="text" name="email" class="login-user-input1" required />
+            <span class="login-text08"><span>Email:</span></span>
           </div>
           <div class="login-password-input">
             <input type="password" name="password" class="login-password-input1" required />
@@ -150,7 +150,7 @@
           </div>
           {% if invalid %}
           <div class="login-invalid-warning">
-            <span class="login-invalid-warning-text"><span>Usuário ou senha incorretos.</span></span>
+            <span class="login-invalid-warning-text"><span>Email ou senha incorretos.</span></span>
           </div>
           {% elif logged_out %}
           <div class="login-invalid-warning">
