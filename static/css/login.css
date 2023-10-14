@@ -35,7 +35,7 @@
 }
 .login-text {
   top: 127px;
-  left: 506px;
+  left: 450px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -190,5 +190,100 @@
     left: 0px;
     height: 100%;
     width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-text {
+    top: 60px; /* Adjust the top position for mobile */
+    left: 20px; /* Adjust the left position for mobile */
+    font-size: 24px; /* Reduce the font size for mobile */
+  }
+
+  .login-text02 {
+    top: 20px; /* Adjust the top position for mobile */
+    left: 20px; /* Adjust the left position for mobile */
+    font-size: 36px; /* Reduce the font size for mobile */
+  }
+
+  .login-login-button {
+    top: 450px; /* Adjust the top position for mobile */
+    left: 5%; /* Adjust the left position for mobile */
+    width: 90%; /* Adjust the width for mobile */
+    height: 60px; /* Adjust the height for mobile */
+  }
+
+  .login-login-button1 {
+    top: 0px; /* Adjust the top position for mobile */
+    left: 0px; /* Adjust the left position for mobile */
+    width: 100%; /* Adjust the width for mobile */
+    height: 60px; /* Adjust the height for mobile */
+  }
+
+  .login-password-input
+  {
+    top: 280px; /* Adjust the top position for mobile */
+    left: 5%; /* Adjust the left position for mobile */
+    width: 90%; /* Adjust the width for mobile */
+    height: 60px; /* Adjust the height for mobile */
+  }
+  .login-password-input1
+  {
+    top: 100%; /* Adjust the top position for mobile */
+    left: 0px; /* Adjust the left position for mobile */
+    width: 100%; /* Adjust the width for mobile */
+    height: 60px; /* Adjust the height for mobile */
+  }
+
+  .login-user-input {
+    top: 150px; /* Adjust the top position for mobile */
+    left: 5%; /* Adjust the left position for mobile */
+    width: 90%; /* Adjust the width for mobile */
+    height: 60px; /* Adjust the height for mobile */
+  }
+  .login-user-input1 {
+    top: 100%; /* Adjust the top position for mobile */
+    left: 0px; /* Adjust the left position for mobile */
+    width: 100%; /* Adjust the width for mobile */
+    height: 60px; /* Adjust the height for mobile */
+  }
+
+  .login-invalid-warning {
+    top: 520px; /* Adjust the top position for mobile */
+    left: 0px; /* Adjust the left position for mobile */
+    width: 80%; /* Adjust the width for mobile */
+    height: 60px; /* Adjust the height for mobile */
+  }
+
+  .login-text06,
+  .login-text08 {
+    left: 5%;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .login-text04 {
+    top: 15%;
+    left: 35%;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Miriam Libre;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
   }
 }
